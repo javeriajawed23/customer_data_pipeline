@@ -121,3 +121,6 @@ Covers:
 * `sample_output.json` is created in the **project root**.
 * The project is designed for **robust error handling, modular design, and production readiness**.
 
+##Task Report
+*Please check the report for a better understanding of the project*
+*Link:* https://drive.google.com/file/d/1cmQHYbwuqsdA_0KMya_y-eSl1zPFVFXN/view?usp=drivesdk
