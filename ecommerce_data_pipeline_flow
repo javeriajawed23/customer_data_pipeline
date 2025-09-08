@@ -1,0 +1,22 @@
+// E-commerce Data Pipeline
+digraph {
+	A [label="Start
+(Mock API Request)"]
+	B [label="CustomerAPIClient
+Fetch Pages & Retry"]
+	C [label="CustomerDataProcessor
+Transform & Clean Data"]
+	D [label="DataExporter
+Export JSON & Summary Report"]
+	E [label="End
+(Output Saved)"]
+	A -> B [label="Request API Data"]
+	B -> C [label="Process Raw Customer Data"]
+	C -> D [label="Prepare Analytics-Ready Records"]
+	D -> E [label="Save sample_output.json"]
+	F [label="Bonus Features
+- Async Fetch
+- Caching
+- Monitoring" color=blue shape=note]
+	B -> F [label="Implemented Features"]
+}

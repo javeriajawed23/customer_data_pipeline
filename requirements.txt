@@ -1,0 +1,10 @@
+# Core
+requests>=2.31.0
+pydantic>=2.11.1
+pytest>=8.4.1
+pytest-asyncio>=1.1.0
+
+# Optional / Bonus
+aiohttp>=3.9.0          # For async API calls
+aiocache>=0.11.1        # For caching
+python-dotenv>=1.0.0    # For config via .env
